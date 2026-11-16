@@ -3,7 +3,7 @@
     "name": "playerInputActions",
     "maps": [
         {
-            "name": "Player",
+            "name": "PlayerOne",
             "id": "99e233d5-2f08-4933-817b-cf9bed8f739c",
             "actions": [
                 {
@@ -72,10 +72,28 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
+                }
+            ]
+        },
+        {
+            "name": "PlayerTwo",
+            "id": "38fe20a8-2016-47fe-9af4-1625400776ca",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "462f1ffd-5df7-4026-87f8-259118716e7c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
                 {
                     "name": "Arrows",
-                    "id": "84091d91-31e2-4c76-be31-9c973339b804",
+                    "id": "e4d5f6e8-73e5-4681-ab98-ed874c8b6c74",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -86,7 +104,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "e50830c6-7955-4a09-ba3e-90d29e07b34d",
+                    "id": "180face7-5c8d-4892-8fa7-bcf762a7618b",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
@@ -97,7 +115,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "ff58b20e-d3f3-46a5-8331-900c292fe802",
+                    "id": "56e40dc0-e28f-4f4a-a208-8dba5d9c1af2",
                     "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
@@ -108,7 +126,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "49cf9514-7e27-4108-90ad-95189b7de3fd",
+                    "id": "d1485274-bb68-41e3-8d1b-a3da149263c9",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
@@ -119,7 +137,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "973ff19f-d3bf-4158-aa78-47ba00d77469",
+                    "id": "d77e060b-4b05-425e-b2e2-d5fdcf191d37",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
